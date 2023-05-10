@@ -12,10 +12,21 @@ With a sleek and modern design, Elite Shop features a user-friendly interface th
 
 Elite Shop also boasts an impressive blog section, featuring informative and engaging articles on fashion, lifestyle, and beauty. The website's admin panel is equally impressive, providing administrators with full control over the website's features, including product management, order tracking, and user management.
 
+## Technologies
+1. Laravel
+2. Tall Stack
+3. Cloudinary
 
 
 https://github.com/atenadadkhah/Elite-Shop/assets/91287064/b6652a8c-d8d3-482f-8c2b-02bfba9ef0a6
 
+## Admin Panel
+
+Elite Shop's admin panel is a game-changer in managing an e-commerce website. With the FilamentPHP, it provides a powerful toolset to manage the website's content, orders, users, and other features. The admin panel enables website owners to easily add or update products, create discount codes, manage orders and payments, and customize the website's appearance. This CMS-based admin panel adds an extra layer of convenience and efficiency to the website's management, making it a top choice for online businesses.
+
+
+
+https://github.com/atenadadkhah/Elite-Shop/assets/91287064/da8b5c15-ba0d-4580-b44b-fef750e3ba23
 
 
 
