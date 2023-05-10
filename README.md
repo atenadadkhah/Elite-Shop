@@ -12,7 +12,7 @@ With a sleek and modern design, Elite Shop features a user-friendly interface th
 
 Elite Shop also boasts an impressive blog section, featuring informative and engaging articles on fashion, lifestyle, and beauty. The website's admin panel is equally impressive, providing administrators with full control over the website's features, including product management, order tracking, and user management.
 
-## Technologies
+### Technologies
 1. Laravel
 2. Tall Stack
 3. Cloudinary
