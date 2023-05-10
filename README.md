@@ -4,7 +4,7 @@
 
 
 
-## Elit Shop
+## Elite Shop
 
 Elite Shop is a top-notch online marketplace for clothing enthusiasts, offering a wide range of high-quality apparel for men and women. As a full-stack web developer, I have designed and programmed this website to provide a seamless and user-friendly shopping experience for customers.
 
@@ -14,7 +14,8 @@ Elite Shop also boasts an impressive blog section, featuring informative and eng
 
 
 
-https://github.com/atenadadkhah/Elit-Shop/assets/91287064/a46ddcd1-0657-495f-b155-fbd997ce9318
+https://github.com/atenadadkhah/Elite-Shop/assets/91287064/b6652a8c-d8d3-482f-8c2b-02bfba9ef0a6
+
 
 
 
