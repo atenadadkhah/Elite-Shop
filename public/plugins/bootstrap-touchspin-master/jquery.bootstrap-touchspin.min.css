@@ -1,0 +1,27 @@
+.bootstrap-touchspin .input-group-btn-vertical {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical>.btn {
+  position: absolute;
+  right: 0;
+  height: 27px;
+  padding: 0;
+  width: 40px;
+  text-align: center;
+  line-height: 1;
+  background: transparent;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up {
+  border-radius: 0 40px 0 0;
+  top: 0
+}
+
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down {
+  border-radius: 0 0 40px 0;
+  top: 27px;
+}

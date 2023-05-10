@@ -1,0 +1,24 @@
+@import '../../vendor/filament/filament/resources/css/app.css';
+@font-face {
+    font-family: 'futura_icgregular';
+    src: url("/fonts/futuraicg-webfont.woff2") format("woff2"), url("../fonts/futuraicg-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'iranYekan';
+    src: url("/fonts/iranYekan.ttf") format("ttf");
+    src: url("/fonts/iranYekan.eot") format("eot");
+    src: url("/fonts/iranYekan.woff") format("woff");
+    src: url("/fonts/iranYekan.woff2") format("woff2");
+}
+body{
+    font-family: "iranYekan", 'futura_icgregular' !important;
+}
+.filament-main-footer{
+    visibility:hidden !important;
+}
+.filament-filament-info-widget{
+    visibility:hidden !important;
+}
+

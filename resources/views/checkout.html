@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<!-- Mirrored from demo.themefisher.com/elite-shop/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Jun 2022 10:35:55 GMT -->
+<head>
+  <meta charset="utf-8">
+  <title>Elite Shop</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="plugins/bootstrap-touchspin-master/jquery.bootstrap-touchspin.min.css">
+  <link rel="stylesheet" href="plugins/nice-select/nice-select.css">
+  <link rel="stylesheet" href="plugins/bootstrap-slider/bootstrap-slider.min.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header>
+  <!-- top advertise -->
+  <!-- <div class="alert alert-secondary alert-dismissible fade show rounded-0 pb-0 mb-0" role="alert">
+    <div class="d-flex justify-content-between">
+      <p>SAVE UP TO $50</p>
+      <h4>SALE!</h4>
+      <div class="shop-now">
+        <a href="shop.blade.php" class="btn btn-sm btn-primary">Shop Now</a>
+      </div>
+    </div>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div> -->
+
+  <!-- top header -->
+  <div class="top-header">
+    <div class="row">
+      <div class="col-lg-6 text-center text-lg-left">
+        <p class="text-white mb-lg-0 mb-1">Free shipping • Free 30 days return • Express delivery</p>
+      </div>
+      <div class="col-lg-6 text-center text-lg-right">
+        <ul class="list-inline">
+          <li class="list-inline-item"><img src="images/flag.jpg" alt="flag"></li>
+          <li class="list-inline-item"><a href="dashboard.blade.php">My Accounts</a></li>
+          <li class="list-inline-item">
+            <form action="#">
+              <select class="country" name="country">
+                <option value="USD">USD</option>
+                <option value="JPN">JPN</option>
+                <option value="BAN">BAN</option>
+              </select>
+            </form>
+          <li class="list-inline-item">
+            <a class="active" href="#">EN</a>
+            <a href="#">FR</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /top-header -->
+</header>
+
+<!-- navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white w-100" id="navbar">
+  <a class="navbar-brand order-2 order-lg-1" href="index.blade.php"><img class="img-fluid" src="images/logo.png" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse order-1 order-lg-2" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.blade.php">home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="shop.blade.php" role="button" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          shop
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="shop.blade.php">Shop</a>
+          <a class="dropdown-item" href="shop-list.html">Shop List</a>
+          <a class="dropdown-item" href="product-single.blade.php">Product Single</a>
+          <a class="dropdown-item" href="checkout.html">Checkout</a>
+          <a class="dropdown-item" href="cart.blade.php">Cart</a>
+          <a class="dropdown-item" href="shipping.html">Shipping Method</a>
+          <a class="dropdown-item" href="payment.html">Payment Method</a>
+          <a class="dropdown-item" href="review.html">Review</a>
+          <a class="dropdown-item" href="confirmation.html">Confirmation</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          pages
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="about.blade.php">About Us</a>
+          <a class="dropdown-item" href="contact.blade.php">Contact Us</a>
+          <a class="dropdown-item" href="login.blade.php">Login</a>
+          <a class="dropdown-item" href="signup.blade.php">Signup</a>
+          <a class="dropdown-item" href="forget-password.html">Forget Password</a>
+          <a class="dropdown-item" href="dashboard.blade.php">Dashboard</a>
+          <a class="dropdown-item" href="faq.blade.php">FAQ</a>
+          <a class="dropdown-item" href="errors/404.blade.php">404 Page</a>
+          <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+          <a class="dropdown-item" href="blog-grid.blade.php">Blog</a>
+          <a class="dropdown-item" href="blog-single.blade.php">Blog Single</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown mega-dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Mega Menu
+        </a>
+        <div class="dropdown-menu mega-menu">
+          <div class="mx-3 mega-menu-item">
+            <h6>Men</h6>
+            <ul class="pl-0">
+              <li><a href="shop.blade.php">Jackets & Coats</a></li>
+              <li><a href="shop.blade.php">Jeans</a></li>
+              <li><a href="shop.blade.php">Top & T-Shirts</a></li>
+              <li><a href="shop.blade.php">Dresses</a></li>
+              <li><a href="shop.blade.php">Men Shirts</a></li>
+            </ul>
+          </div>
+          <div class="mx-3 mega-menu-item">
+            <h6>Women</h6>
+            <ul class="pl-0">
+              <li><a href="shop.blade.php">Blouses & Shirts</a></li>
+              <li><a href="shop.blade.php">Dresses</a></li>
+              <li><a href="shop.blade.php">Top & T-Shirts</a></li>
+              <li><a href="shop.blade.php">Jeans & Trousers</a></li>
+              <li><a href="shop.blade.php">Jackets & Coats</a></li>
+            </ul>
+          </div>
+          <div class="mx-3 mega-menu-item">
+            <h6>Shoes & Bags</h6>
+            <ul class="pl-0">
+              <li><a href="shop.blade.php">Backpacks</a></li>
+              <li><a href="shop.blade.php">Bum Bags</a></li>
+              <li><a href="shop.blade.php">Accross Bags</a></li>
+              <li><a href="shop.blade.php">Shoes</a></li>
+              <li><a href="shop.blade.php">Heeled Shoes</a></li>
+            </ul>
+          </div>
+          <div class="mx-3 mega-menu-item">
+            <h6>Accessories</h6>
+            <ul class="pl-0">
+              <li><a href="shop.blade.php">Sunglasses</a></li>
+              <li><a href="shop.blade.php">Watches</a></li>
+              <li><a href="shop.blade.php">Gloves</a></li>
+              <li><a href="shop.blade.php">Capes & Hats</a></li>
+              <li><a href="shop.blade.php">Belts</a></li>
+            </ul>
+          </div>
+          <div class="mx-3 mega-megu-image">
+            <img class="img-fluid h-100" src="images/mega-megu.jpg" alt="feature-img">
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.blade.php">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <div class="order-3 navbar-right-elements">
+    <div class="search-cart">
+      <!-- search -->
+      <div class="search">
+        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+        <div class="search-wrapper">
+          <form action="#">
+            <input class="search-box" id="search" type="search" placeholder="Enter Keywords...">
+            <button class="search-icon" type="submit"><i class="ti-search"></i></button>
+          </form>
+        </div>
+      </div>
+      <!-- cart -->
+      <div class="cart">
+        <button id="cartOpen" class="cart-btn"><i class="ti-bag"></i><span class="d-xs-none">CART</span> 3</button>
+        <div class="cart-wrapper">
+          <i id="cartClose" class="ti-close cart-close"></i>
+          <h4 class="mb-4">Your Cart</h4>
+          <ul class="pl-0 mb-3">
+            <li class="d-flex border-bottom">
+              <img src="images/cart/product-1.jpg" alt="product-img">
+              <div class="mx-3">
+                <h6>Eleven Paris Skinny Jeans</h6>
+                <span>1</span> X <span>$79.00</span>
+              </div>
+              <i class="ti-close"></i>
+            </li>
+            <li class="d-flex border-bottom">
+              <img src="images/cart/product-2.jpg" alt="product-img">
+              <div class="mx-3">
+                <h6>Eleven Paris Skinny Jeans top</h6>
+                <span>1 X</span> <span>$79.00</span>
+              </div>
+              <i class="ti-close"></i>
+            </li>
+          </ul>
+          <div class="mb-3">
+            <span>Cart Total</span>
+            <span class="float-right">$79.00</span>
+          </div>
+          <div class="text-center">
+            <a href="cart.blade.php" class="btn btn-dark btn-mobile rounded-0">view cart</a>
+            <a href="checkout.html" class="btn btn-dark btn-mobile rounded-0">check out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- /navigation -->
+
+<!-- main wrapper -->
+<div class="main-wrapper">
+
+<!-- breadcrumb -->
+<nav class="bg-gray py-3">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.blade.php">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+    </ol>
+  </div>
+</nav>
+<!-- /breadcrumb -->
+
+<div class="section">
+  <div class="checkout shopping">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="block billing-details">
+            <h4 class="widget-title">Billing Details</h4>
+            <form class="checkout-form">
+              <div class="form-group">
+                <label for="full_name">Full Name</label>
+                <input type="text" class="form-control" id="full_name" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="user_address">Address</label>
+                <input type="text" class="form-control" id="user_address" placeholder="">
+              </div>
+              <div class="checkout-country-code clearfix">
+                <div class="form-group">
+                  <label for="user_post_code">Zip Code</label>
+                  <input type="text" class="form-control" id="user_post_code" name="zipcode" value="">
+                </div>
+                <div class="form-group">
+                  <label for="user_city">City</label>
+                  <input type="text" class="form-control" id="user_city" name="city" value="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="user_country">Country</label>
+                <input type="text" class="form-control" id="user_country" placeholder="">
+              </div>
+            </form>
+          </div>
+          <div class="block">
+            <h4 class="widget-title">Payment Method</h4>
+            <p>Credit Cart Details (Secure payment)</p>
+            <div class="checkout-product-details">
+              <div class="payment">
+                <div class="card-details">
+                  <form class="checkout-form">
+                    <div class="form-group">
+                      <label for="card-number">Card Number <span class="required">*</span></label>
+                      <input id="card-number" class="form-control" type="tel" placeholder="•••• •••• •••• ••••">
+                    </div>
+                    <div class="form-group half-width padding-right">
+                      <label for="card-expiry">Expiry (MM/YY) <span class="required">*</span></label>
+                      <input id="card-expiry" class="form-control" type="tel" placeholder="MM / YY">
+                    </div>
+                    <div class="form-group half-width padding-left">
+                      <label for="card-cvc">Card Code <span class="required">*</span></label>
+                      <input id="card-cvc" class="form-control" type="tel" maxlength="4" placeholder="CVC">
+                    </div>
+                    <a href="confirmation.html" class="btn btn-primary mt-3">Place Order</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-checkout-details">
+            <div class="block">
+              <h4 class="widget-title">Order Summary</h4>
+              <div class="media product-card">
+                <a class="pull-left" href="product-single.blade.php">
+                  <img class="media-object" src="images/cart/product-1.jpg" alt="Image" />
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading"><a class="text-color" href="product-single.blade.php">Ambassador Heritage 1921</a></h4>
+                  <p class="price">1 x $249</p>
+                  <span class="remove">Remove</span>
+                </div>
+              </div>
+              <div class="discount-code">
+                <p>Have a discount ? <a data-toggle="modal" data-target="#coupon-modal" href="#">enter it here</a></p>
+              </div>
+              <ul class="summary-prices">
+                <li>
+                  <span>Subtotal:</span>
+                  <span class="price">$190</span>
+                </li>
+                <li>
+                  <span>Shipping:</span>
+                  <span>Free</span>
+                </li>
+              </ul>
+              <div class="summary-total">
+                <span>Total</span>
+                <span>$250</span>
+              </div>
+              <div class="verified-icon">
+                <img src="images/verified.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="coupon-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form class="text-center">
+          <div class="form-group">
+            <input class="form-control text-center" type="text" placeholder="Enter Coupon Code">
+          </div>
+          <button type="submit" class="btn btn-primary">Apply Coupon</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<footer class="bg-light">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
+          <h3 class="mb-4">Contact</h3>
+          <p>20464 Hirthe Curve Suite, Emardton, CT 12471-4107</p>
+          <p>+5(305) 785-0437</p>
+          <p>info@example.com</p>
+          <ul class="list-inline social-icons">
+            <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="ti-vimeo-alt"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="ti-google"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
+          <h3 class="mb-4">Category</h3>
+          <ul class="pl-0 list-unstyled">
+            <li class="mb-2"><a class="text-color" href="shop.blade.php">Men</a></li>
+            <li class="mb-2"><a class="text-color" href="shop.blade.php">Women</a></li>
+            <li class="mb-2"><a class="text-color" href="shop.blade.php">Kids</a></li>
+            <li class="mb-2"><a class="text-color" href="shop.blade.php">Accessories</a></li>
+            <li class="mb-2"><a class="text-color" href="shop.blade.php">Shoe</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
+          <h3 class="mb-4">Useful Link</h3>
+          <ul class="pl-0 list-unstyled">
+            <li class="mb-2"><a class="text-color" href="about.blade.php">News & Tips</a></li>
+            <li class="mb-2"><a class="text-color" href="about.blade.php">About Us</a></li>
+            <li class="mb-2"><a class="text-color" href="address.html">Support</a></li>
+            <li class="mb-2"><a class="text-color" href="shop.blade.php">Our Shop</a></li>
+            <li class="mb-2"><a class="text-color" href="contact.blade.php">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center text-sm-left">
+          <h3 class="mb-4">Our Policies</h3>
+          <ul class="pl-0 list-unstyled">
+            <li class="mb-2"><a class="text-color" href="errors/404.blade.php">Privacy Policy</a></li>
+            <li class="mb-2"><a class="text-color" href="errors/404.blade.php">Terms & Conditions</a></li>
+            <li class="mb-2"><a class="text-color" href="errors/404.blade.php">Cookie Policy</a></li>
+            <li class="mb-2"><a class="text-color" href="errors/404.blade.php">Terms of Sale</a></li>
+            <li class="mb-2"><a class="text-color" href="dashboard.blade.php">Free Shipping & Returns</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 text-center text-md-left mb-4 mb-md-0 align-self-center">
+          <p class="text-white mb-0">Logo &copy; 2018 all right reserved</p>
+        </div>
+        <div class="col-md-2 text-center text-md-left mb-4 mb-md-0">
+          <img src="images/logo-alt.png" alt="logo">
+        </div>
+        <div class="col-md-5 text-center text-md-right mb-4 mb-md-0">
+          <ul class="list-inline">
+            <li class="list-inline-item"><img src="images/payment-card/card-1.jpg" alt="card"></li>
+            <li class="list-inline-item"><img src="images/payment-card/card-2.jpg" alt="card"></li>
+            <li class="list-inline-item"><img src="images/payment-card/card-3.jpg" alt="card"></li>
+            <li class="list-inline-item"><img src="images/payment-card/card-4.jpg" alt="card"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+</div>
+<!-- /main wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/venobox/venobox.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/syotimer/jquery.syotimer.js"></script>
+<script src="plugins/instafeed/instafeed.min.js"></script>
+<script src="plugins/zoom-master/jquery.zoom.min.js"></script>
+<script src="plugins/bootstrap-touchspin-master/jquery.bootstrap-touchspin.min.js"></script>
+<script src="plugins/nice-select/jquery.nice-select.min.js"></script>
+<script src="plugins/bootstrap-slider/bootstrap-slider.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+<script src="plugins/google-map/gmap.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from demo.themefisher.com/elite-shop/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Jun 2022 10:35:57 GMT -->
+</html>
