@@ -32,4 +32,4 @@ https://github.com/atenadadkhah/Elite-Shop/assets/91287064/da8b5c15-ba0d-4580-b4
 
 ## License
 
-The Laravel project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
