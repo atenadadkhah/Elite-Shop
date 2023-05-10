@@ -14,6 +14,10 @@ Elite Shop also boasts an impressive blog section, featuring informative and eng
 
 
 
+https://github.com/atenadadkhah/Elit-Shop/assets/91287064/a46ddcd1-0657-495f-b155-fbd997ce9318
+
+
+
 ## License
 
 The Laravel project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
